@@ -50,6 +50,17 @@ it creates a softlink of the main file and data is synced and if you delete main
 -- ln file_name hardlink_backuplink_filename
 it creates a backup link of your main_file, it can be created in any directory and files will be synced inside the backuplink_hardlink_filename
 
+-- tar -cvf file_name.tar whichfile_name
+it will archieve that file
+
+-- tar -xvf file_name.tar
+it will unarchieve that file
+
+-- gzip filename
+it will zip or compress the specified file
+
+--gunzip filename
+it will unzip or uncompress the specified file
 
 
 
