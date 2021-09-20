@@ -51,7 +51,7 @@ push your code to master
 ** there are two types of merges
 -- fast-forward merge - basically works as you create a another branch (issue50) and do some commit on it, and you want to merge master last commit to issue50 last commit so it will be fast-forward merge
 
-
-
+-- git merge --squash branch_name
+this is when you do not want history of the branch_name commit means you want to make tree look as clean as possible
 
 

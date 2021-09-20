@@ -57,6 +57,8 @@ delete the image
 -- docker rm container_name
 removing docker
 
+-- docker run --it --name container_name image_name sh
+
 
 
 
