@@ -34,6 +34,8 @@ Enviorment variables
 
 FROM ubuntu
 WORKDIR /tmp
+MAINTAINER deyvessh_kumar
+EXPOSE 80, 443, 3389
 RUN echo "this is Dockerfile" > /tmp/testfile
 ENV myname deyvessh_kumar
 COPY testfile /tmp
