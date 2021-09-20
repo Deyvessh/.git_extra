@@ -30,4 +30,14 @@ Similar to CMD, but has higher priority over CMD, (first commands will be execut
 ENV
 Enviorment variables
 
+//Command
+
+FROM ubuntu
+WORKDIR /tmp
+RUN echo "this is Dockerfile" > /tmp/testfile
+ENV myname deyvessh_kumar
+COPY testfile /tmp
+ADD test.tar.gz /tmp
+
+
 
