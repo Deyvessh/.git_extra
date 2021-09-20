@@ -1,12 +1,54 @@
 // commands
 
-ifconfig
-man
-touch filename
-vi filename - editor
-nano filename - editor
-cat > filename
-cat filename - print insides of a file
+-- ifconfig
+
+-- man
+
+-- touch filename
+
+-- vi filename
+editor
+
+-- nano filename
+editor
+
+-- cat > filename
+
+-- cat filename
+print insides of a file
+
+-- touch .file_name
+hidden files
+
+-- ls -a
+show hiddenfiles
+
+-- mkdir folder_name 
+
+-- rm -rf file/folder_name
+delete file or folder subdirectories
+
+-- cp file1 file2
+
+-- mv file1 /desktop/.git
+
+-- hostname
+machine details
+
+-- hostname -i
+ipaddress of machine
+
+-- cat /etc/os-release
+OS version
+
+-- grep root /etc/passwd
+find root specific file of dir path from /etc/passwd
+
+
+
+
+
+
 
 -- useradd user_name
 adding user
