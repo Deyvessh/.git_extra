@@ -21,6 +21,13 @@ To expose ports such as port 8080 for tomcat, port 80 for nginx
 WORKDIR
 To set working dir for a container
 
+CMD
+Execute commands but during container cretion
 
+ENTRYPOINT
+Similar to CMD, but has higher priority over CMD, (first commands will be executed by ENTRYPOINT only)
+
+ENV
+Enviorment variables
 
 
