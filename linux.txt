@@ -59,8 +59,25 @@ it will unarchieve that file
 -- gzip filename
 it will zip or compress the specified file
 
---gunzip filename
+-- gunzip filename
 it will unzip or uncompress the specified file
+
+-- drwxrwxrwx
+first d is file/dir type so its directory
+next 3 alphabets rwx - read, write, execute belongs to owner
+next 3 alphabets rwx - read, write, execute belongs to group
+last 3 alphabets rwx - read, write, execute belongs to other user
+
+rwx
+421
+
+means if a permission is to be given so 
+
+-- chmod 777 user_name
+all the permission is given to the user
+
+-- chmod 070 user_name 
+only read permission is given to the user
 
 
 
