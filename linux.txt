@@ -62,10 +62,6 @@ it will zip or compress the specified file
 --gunzip filename
 it will unzip or uncompress the specified file
 
-
-
-
-
 -- useradd user_name
 adding user
 
