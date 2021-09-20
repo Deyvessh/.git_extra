@@ -35,6 +35,7 @@ Enviorment variables
 FROM ubuntu
 WORKDIR /tmp
 RUN echo "this is Dockerfile" > /tmp/testfile
+MAINTAINER deyvessh kumar
 ENV myname deyvessh_kumar
 COPY testfile /tmp
 ADD test.tar.gz /tmp
