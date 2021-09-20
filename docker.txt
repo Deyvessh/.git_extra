@@ -1,0 +1,9 @@
+// docker commands
+
+docker images - locate images locally
+docker search jenkins - search jenkins from hub.docker.com
+docker pull ubuntu - pull ubuntu from hub.docker.com
+docker run -it --name container_name image_name /bin/bash - create a container, run it and takes you inside the container
+service docker status - status of container
+service start docker - start the container
+servicd stop docker - stop the docker services
