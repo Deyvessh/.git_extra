@@ -48,7 +48,8 @@ adding remote origin of github repo
 -- git push -u origin master
 push your code to master
 
-
+** there are two types of merges
+-- fast-forward merge - basically works as you create a another branch (issue50) and do some commit on it, and you want to merge master last commit to issue50 last commit so it will be fast-forward merge
 
 
 
