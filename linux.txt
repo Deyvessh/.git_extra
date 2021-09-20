@@ -8,3 +8,21 @@ nano filename - editor
 cat > filename
 cat filename - print insides of a file
 
+-- useradd user_name
+adding user
+
+-- groupadd group_name
+adding group
+
+-- cat /etc/passwd
+here you can see added user
+
+-- cat /etc/group
+here you can see added group
+
+-- passwd -a user_name user_group
+adding user to group
+
+-- passwd -M user1,user2,user3,user4 user_group
+adding multiple users to group
+
