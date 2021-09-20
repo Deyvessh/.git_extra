@@ -8,3 +8,4 @@ git add filename - add the specified file from working dir to staged dir
 git commit -m "any message" - msgs are important in view to tracking or restoring
 git log - in every commit you get a sha-1 hash metadata, a unique 40 hexadecimal key to track your file
 git log --all --decorate --oneline --graph - a minimilistic graph of log
+git branch -m old_branch_name new_branch_name - change branch name
