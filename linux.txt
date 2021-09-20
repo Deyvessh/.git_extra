@@ -52,8 +52,6 @@ it creates a backup link of your main_file, it can be created in any directory a
 
 -- tar -cvf file_name.tar whichfile_name
 it will archieve that file
-<<<<<<< HEAD
-=======
 
 -- tar -xvf file_name.tar
 it will unarchieve that file
