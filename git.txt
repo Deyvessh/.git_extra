@@ -42,6 +42,12 @@ adding your email to the .config file
 -- git config --list
 displays the list of saved .config data
 
+-- git remote add origin https://github.com/Deyvessh/.git_extra.git
+adding remote origin of github repo
+
+-- git push -u origin master
+push your code to master
+
 
 
 
