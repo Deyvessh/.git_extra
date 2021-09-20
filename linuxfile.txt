@@ -1,0 +1,10 @@
+// commands
+
+ifconfig
+man
+touch filename
+vi filename - editor
+nano filename - editor
+cat > filename
+cat filename - print insides of a file
+
