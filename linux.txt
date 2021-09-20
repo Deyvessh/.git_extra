@@ -44,6 +44,11 @@ OS version
 -- grep root /etc/passwd
 find root specific file of dir path from /etc/passwd
 
+-- ln -s file_name softlink_filename
+it creates a softlink of the main file and data is synced and if you delete main file then soft link will not work, i have tried to set it in the another directory but it doesn't work
+ 
+-- ln file_name hardlink_backuplink_filename
+it creates a backup link of your main_file, it can be created in any directory and files will be synced inside the backuplink_hardlink_filename
 
 
 
