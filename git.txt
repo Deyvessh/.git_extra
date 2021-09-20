@@ -1,11 +1,50 @@
 //commands
 
-git init - initilize the git in the folder so all files in the folder now will be tracked 
-git status - to see the status of changed and unchanged file in the git repo
-git add . - all the changes in the file from working directory to staged directory
-git add * - all the changes in the file from working directory to staged directory
-git add filename - add the specified file from working dir to staged dir
-git commit -m "any message" - msgs are important in view to tracking or restoring
-git log - in every commit you get a sha-1 hash metadata, a unique 40 hexadecimal key to track your file
-git log --all --decorate --oneline --graph - a minimilistic graph of log
-git branch -m old_branch_name new_branch_name - change branch name
+-- git init
+initilize the git in the folder so all files in the folder now will be tracked 
+
+-- git status  
+to see the status of changed and unchanged file in the git repo
+
+-- git add .
+all the changes in the file from working directory to staged directory
+
+-- git add *
+all the changes in the file from working directory to staged directory
+
+-- git add filename
+add the specified file from working dir to staged dir
+
+-- git commit -m "any message"
+messages are important in view of tracking or restoring previous version
+
+-- git log
+with every commit you get a sha-1 hash metadata, a unique 40 hexadecimal key to track your file
+
+-- git log --all --decorate --oneline --graph
+a minimilistic graph of log
+
+-- git branch -m old_branch_name new_branch_name
+change branch name
+
+-- git branch branch_name 
+creates a new branch
+
+-- git checkout branch_name
+switch to the specified branch
+
+-- git config --global user.name "your_name"
+adding your name to the .config file
+
+-- git config --global user.email "your_email"
+adding your email to the .config file
+
+-- git config --list
+displays the list of saved .config data
+
+
+
+
+
+
+
